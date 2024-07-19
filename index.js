@@ -15,7 +15,6 @@ app.use(cors());
 
 // database connection with mongoDB
 
-// the actual pass word is : Bhanu@2021 --> encoded to --> Bhanu%402021
 mongoose.connect("mongodb+srv://Prajjwal:Bhanu%402021@cluster0.xzm1u9y.mongodb.net/e-commerce");
 
 // api creation
